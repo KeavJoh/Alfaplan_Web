@@ -1,5 +1,7 @@
 body {
     margin: unset;
+    scroll-behavior: smooth;
+    font-size: 26px;
 }
 
 a {
@@ -26,7 +28,7 @@ a {
 
 .logo-header {
     max-width: 750px;
-    min-width: 200px;
+    height: auto;
     padding-left: 15px;
     margin: 50px;
 }
@@ -38,4 +40,15 @@ a {
 
 .arrow-nav:hover {
     cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    top: 25px;
+    right: 35px;
+}
+
+.menu a {
+    margin-left: 20px;
+    padding: 5px;
 }
