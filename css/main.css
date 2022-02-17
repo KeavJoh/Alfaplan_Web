@@ -81,6 +81,12 @@ a {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.content h2 {
+    margin-top: unset;
 }
 
 .service-content {
@@ -93,7 +99,7 @@ a {
 }
 
 .icon-color {
-    color: #414246;
+    color: white;
 }
 
 .service-inner-content {
@@ -102,12 +108,28 @@ a {
     align-items: center;
     justify-content: flex-start;
     width: 350px;
-    padding: 10px;
-    border: 5px solid black;
-    border-radius: 25px;
+    border: 3px solid black;
+    border-radius: 15px;
 }
 
 .service-inner-content p {
     margin: unset;
     text-align: center;
+    margin: 10px;
+}
+
+.bg-grey {
+    background-color: #3D3F45;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    padding-top: 30px;
+}
+
+.bg-grey h3 {
+    color: white;
 }
